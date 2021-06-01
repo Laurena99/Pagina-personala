@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=1200:*);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+.center{
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 72vh;
+    text-align: center;
+    border-radius: 5px;
+}
+.content li{
+   display: inline-block;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+.content{
+    padding: 30px;
+}
+h1{
+    color: wheat;
+}
+.content h3,p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px auto;
+}
+div.social i{
+    padding: 0 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+
+}
+div.social i:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.cv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cv a{
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black ;
+}
